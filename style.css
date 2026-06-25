@@ -290,3 +290,24 @@ body {
 .ba-panel-after .ba-teeth,
 .ba-panel-before .ba-placeholder-label,
 .ba-panel-after .ba-placeholder-label { display: none; }
+
+
+/* Real photos — hide placeholder teeth and labels */
+.ba-panel-before .ba-teeth,
+.ba-panel-after .ba-teeth,
+.ba-panel-before .ba-placeholder-label,
+.ba-panel-after .ba-placeholder-label { display: none; }
+
+/* Remove ghost word */
+.hero-ghost-word { display: none; }
+
+/* Tighten hero right panel — less padding, content fills space */
+.hero-content-panel {
+  padding: 64px 40px 64px 40px;
+}
+.hero-content {
+  max-width: 100%;
+}
+.hero-sub {
+  max-width: 100%;
+}
