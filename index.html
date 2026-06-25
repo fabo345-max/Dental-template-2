@@ -4,25 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Apex Dental — Confidence Starts Here</title>
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
-  <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ============================================================
-       NAV
-  ============================================================ -->
   <header class="nav" id="main-nav">
     <div class="container nav-inner">
-      <a href="#" class="nav-logo">
-        Apex<span class="logo-dot"></span>Dental
-      </a>
+      <a href="#" class="nav-logo">Apex<span class="logo-dot"></span>Dental</a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#services">Services</a>
         <a href="#results">Results</a>
@@ -41,147 +32,83 @@
     </nav>
   </header>
 
-  <!-- ============================================================
-       HERO — SPLIT SCREEN
-       Left panel: full-bleed image
-       Right panel: headline, CTA, stats + ghost-word signature
-  ============================================================ -->
   <section class="hero" aria-label="Hero">
-
-    <!-- LEFT: Image -->
     <div class="hero-image-panel">
-      <img
-        class="hero-img"
-        src="imagesclinic-photo.jpg" loading="lazy"
-        alt="Patient with a bright, confident smile in a modern dental clinic"
-        loading="eager"
-      />
+      <img class="hero-img" src="imagesclinic-photo.jpg" alt="Patient with a bright, confident smile in a modern dental clinic" loading="eager" />
       <div class="hero-image-overlay" aria-hidden="true"></div>
     </div>
-
-    <!-- RIGHT: Content -->
     <div class="hero-content-panel">
-      <!-- Signature element: large outlined ghost word behind the headline -->
-      
-
+      <div class="hero-ghost-word" aria-hidden="true">SMILE</div>
       <div class="hero-content">
         <span class="eyebrow section-label">Surrey's Premier Practice</span>
-        <h1 class="headline hero-headline">
-          Your<br />
-          <span class="teal">boldest</span><br />
-          smile yet.
-        </h1>
-        <p class="hero-sub">
-          Advanced cosmetic and restorative dentistry. We don't just fix teeth — we transform the way you show up in the world.
-        </p>
+        <h1 class="headline hero-headline">Your<br/><span class="teal">boldest</span><br/>smile yet.</h1>
+        <p class="hero-sub">Advanced cosmetic and restorative dentistry. We don't just fix teeth — we transform the way you show up in the world.</p>
         <div class="hero-actions">
           <a href="#contact" class="btn btn-primary">Book a Free Consult</a>
           <a href="#results" class="btn btn-outline">See Results</a>
         </div>
         <div class="hero-stats">
-          <div class="stat">
-            <span class="stat-num">3,200+</span>
-            <span class="stat-label">Smiles transformed</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">18 yrs</span>
-            <span class="stat-label">In practice</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">4.9★</span>
-            <span class="stat-label">Google rating</span>
-          </div>
+          <div class="stat"><span class="stat-num">3,200+</span><span class="stat-label">Smiles transformed</span></div>
+          <div class="stat"><span class="stat-num">18 yrs</span><span class="stat-label">In practice</span></div>
+          <div class="stat"><span class="stat-num">4.9★</span><span class="stat-label">Google rating</span></div>
         </div>
       </div>
     </div>
-
   </section>
 
-  <!-- ============================================================
-       SERVICES
-       3-column card grid with lift/glow hover effects
-  ============================================================ -->
   <section class="services" id="services" aria-label="Our services">
     <div class="container">
       <div class="services-header">
         <div>
           <span class="eyebrow section-label">What we do</span>
-          <h2 class="headline services-headline">Every service.<br />One standard.</h2>
+          <h2 class="headline services-headline">Every service.<br/>One standard.</h2>
         </div>
         <p class="services-tagline">From your first cleaning to a full-arch restoration, we bring the same precision to every chair.</p>
       </div>
-
       <div class="services-grid">
-
         <div class="service-card">
           <div class="service-icon-wrap" aria-hidden="true">🦷</div>
           <div class="service-name">Preventive Care</div>
           <p class="service-desc">Comprehensive cleanings, digital X-rays, and oral cancer screenings to protect what you already have.</p>
-          <span class="service-arrow">Learn more
-            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
+          <span class="service-arrow">Learn more <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
         </div>
-
         <div class="service-card">
           <div class="service-icon-wrap" aria-hidden="true">✨</div>
           <div class="service-name">Teeth Whitening</div>
           <p class="service-desc">Professional-grade in-office and take-home whitening that delivers up to 8 shades brighter in a single session.</p>
-          <span class="service-arrow">Learn more
-            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
+          <span class="service-arrow">Learn more <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
         </div>
-
         <div class="service-card">
           <div class="service-icon-wrap" aria-hidden="true">🚨</div>
           <div class="service-name">Emergency Care</div>
           <p class="service-desc">Same-day appointments. Cracked tooth, lost crown, or severe pain — we'll see you fast, no waiting, no runaround.</p>
-          <span class="service-arrow">Call now
-            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
+          <span class="service-arrow">Call now <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
         </div>
-
         <div class="service-card">
           <div class="service-icon-wrap" aria-hidden="true">🔲</div>
           <div class="service-name">Clear Aligners</div>
           <p class="service-desc">Straighten your teeth without the metal. Discreet, comfortable, and tracked with 3D imaging from day one.</p>
-          <span class="service-arrow">Free consult
-            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
+          <span class="service-arrow">Free consult <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
         </div>
-
         <div class="service-card">
           <div class="service-icon-wrap" aria-hidden="true">💎</div>
           <div class="service-name">Veneers &amp; Crowns</div>
           <p class="service-desc">Porcelain veneers and same-day CEREC crowns. Custom-fitted, natural-looking restorations made in our clinic.</p>
-          <span class="service-arrow">Learn more
-            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
+          <span class="service-arrow">Learn more <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
         </div>
-
         <div class="service-card">
           <div class="service-icon-wrap" aria-hidden="true">🩺</div>
           <div class="service-name">Dental Implants</div>
           <p class="service-desc">Permanent tooth replacement that looks, feels, and functions like the real thing. Titanium roots, ceramic crowns.</p>
-          <span class="service-arrow">Learn more
-            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
+          <span class="service-arrow">Learn more <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       BEFORE & AFTER SLIDER
-       Interactive drag-to-compare widget.
-       To use real photos: replace the .ba-panel-before and
-       .ba-panel-after background colors with background-image URLs
-       and remove the .ba-teeth elements.
-  ============================================================ -->
   <section class="before-after" id="results" aria-label="Before and after results">
     <div class="container">
       <div class="ba-inner">
-
         <div class="ba-copy">
           <span class="eyebrow section-label">Real results</span>
           <h2 class="headline">The proof is in the smile.</h2>
@@ -191,42 +118,45 @@
             <span class="ba-label"><span class="dot dot-after"></span> After treatment</span>
           </div>
         </div>
-
         <div>
           <div class="ba-slider-wrap" id="ba-slider" aria-label="Before and after comparison slider">
-
-          <!-- BEFORE panel (left side) -->
-<div class="ba-panel ba-panel-before">
-  <span class="ba-placeholder-label">Before</span>
-</div>
-
-<!-- AFTER panel (right side, clipped by JS) -->
-<div class="ba-panel ba-panel-after" id="ba-after">
-  <span class="ba-placeholder-label">After</span>
-</div>
-
-            <!-- Drag handle -->
-            <div class="ba-handle" id="ba-handle" role="slider" ...>
-  <div class="ba-handle-line"></div>
-  <div class="ba-handle-knob" aria-hidden="true"></div>
-</div>
-                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-                  <path d="M8 4l-4 4 4 4M16 4l4 4-4 4"/>
-                </svg>
+            <div class="ba-panel ba-panel-before">
+              <span class="ba-placeholder-label">Before</span>
+              <div class="ba-teeth">
+                <div class="ba-tooth ba-tooth-short"></div>
+                <div class="ba-tooth ba-tooth-mid"></div>
+                <div class="ba-tooth ba-tooth-tall"></div>
+                <div class="ba-tooth ba-tooth-tall"></div>
+                <div class="ba-tooth ba-tooth-tall"></div>
+                <div class="ba-tooth ba-tooth-mid"></div>
+                <div class="ba-tooth ba-tooth-short"></div>
               </div>
             </div>
-
+            <div class="ba-panel ba-panel-after" id="ba-after">
+              <span class="ba-placeholder-label">After</span>
+              <div class="ba-teeth">
+                <div class="ba-tooth ba-tooth-short"></div>
+                <div class="ba-tooth ba-tooth-mid"></div>
+                <div class="ba-tooth ba-tooth-tall"></div>
+                <div class="ba-tooth ba-tooth-tall"></div>
+                <div class="ba-tooth ba-tooth-tall"></div>
+                <div class="ba-tooth ba-tooth-mid"></div>
+                <div class="ba-tooth ba-tooth-short"></div>
+              </div>
+            </div>
+            <div class="ba-handle" id="ba-handle" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="Before/after comparison">
+              <div class="ba-handle-line"></div>
+              <div class="ba-handle-knob" aria-hidden="true">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M8 4l-4 4 4 4M16 4l4 4-4 4"/></svg>
+              </div>
+            </div>
           </div>
           <p class="ba-hint">← Drag to compare →</p>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       TESTIMONIALS
-  ============================================================ -->
   <section class="testimonials" id="testimonials" aria-label="Patient testimonials">
     <div class="container">
       <div class="testimonials-header">
@@ -234,55 +164,37 @@
         <h2 class="headline">Don't take our word for it.</h2>
       </div>
       <div class="testimonials-grid">
-
         <div class="testi-card">
           <div class="testi-stars" aria-label="5 out of 5 stars">★★★★★</div>
           <p class="testi-quote">"I was terrified of dentists for 12 years. The team here changed that. My veneers are unreal — every person I've told thinks they're my natural teeth."</p>
           <div class="testi-author">
             <div class="testi-avatar" aria-hidden="true">RM</div>
-            <div>
-              <div class="testi-name">Rachel M.</div>
-              <div class="testi-role">Veneer patient · 2024</div>
-            </div>
+            <div><div class="testi-name">Rachel M.</div><div class="testi-role">Veneer patient · 2024</div></div>
           </div>
         </div>
-
         <div class="testi-card">
           <div class="testi-stars" aria-label="5 out of 5 stars">★★★★★</div>
           <p class="testi-quote">"Same-day emergency appointment on a Sunday. They fixed my cracked crown in under two hours. I cannot believe how painless the whole process was."</p>
           <div class="testi-author">
             <div class="testi-avatar" aria-hidden="true">JT</div>
-            <div>
-              <div class="testi-name">James T.</div>
-              <div class="testi-role">Emergency patient · 2025</div>
-            </div>
+            <div><div class="testi-name">James T.</div><div class="testi-role">Emergency patient · 2025</div></div>
           </div>
         </div>
-
         <div class="testi-card">
           <div class="testi-stars" aria-label="5 out of 5 stars">★★★★★</div>
           <p class="testi-quote">"Started Invisalign six months ago. The 3D previews at the start showed me exactly what to expect — and I'm already there ahead of schedule."</p>
           <div class="testi-author">
             <div class="testi-avatar" aria-hidden="true">SP</div>
-            <div>
-              <div class="testi-name">Sofia P.</div>
-              <div class="testi-role">Invisalign patient · 2025</div>
-            </div>
+            <div><div class="testi-name">Sofia P.</div><div class="testi-role">Invisalign patient · 2025</div></div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       FOOTER — Newsletter + Nav/Social + Bottom bar
-  ============================================================ -->
   <footer class="footer" id="contact">
     <div class="container">
       <div class="footer-top">
-
-        <!-- Newsletter column -->
         <div class="footer-newsletter">
           <h2 class="newsletter-headline">Stay in the loop.</h2>
           <p>Oral health tips, practice news, and the occasional offer — straight to your inbox. No spam, ever.</p>
@@ -291,10 +203,7 @@
             <button type="submit">Subscribe</button>
           </form>
         </div>
-
-        <!-- Nav + social column -->
         <div class="footer-nav">
-
           <div class="footer-nav-group">
             <h4>Services</h4>
             <ul>
@@ -305,7 +214,6 @@
               <li><a href="#services">Implants</a></li>
             </ul>
           </div>
-
           <div class="footer-nav-group">
             <h4>Practice</h4>
             <ul>
@@ -316,50 +224,20 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-
           <div class="footer-nav-group">
             <h4>Connect</h4>
             <div class="social-links" role="list">
-
-              <a href="#" class="social-link" aria-label="Instagram" role="listitem">
-                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24" aria-hidden="true">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                </svg>
-              </a>
-
-              <a href="#" class="social-link" aria-label="Facebook" role="listitem">
-                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-                </svg>
-              </a>
-
-              <a href="#" class="social-link" aria-label="Google Reviews" role="listitem">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                  <circle cx="12" cy="12" r="10"/>
-                  <path d="M12 8v4l3 3"/>
-                </svg>
-              </a>
-
-              <a href="#" class="social-link" aria-label="TikTok" role="listitem">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.3 6.3 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.21 8.21 0 004.78 1.52V6.75a4.85 4.85 0 01-1.01-.06z"/>
-                </svg>
-              </a>
-
+              <a href="#" class="social-link" aria-label="Instagram" role="listitem"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              <a href="#" class="social-link" aria-label="Facebook" role="listitem"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
             </div>
-
-            <div style="margin-top:20px; display:flex; flex-direction:column; gap:6px;">
-              <a href="tel:+16041234567" class="contact-detail">📞 (604) 123-4567</a>
-              <span class="contact-detail">📍 Surrey, BC</span>
-              <span class="contact-detail">⏰ Mon–Fri 8am–7pm · Sat 9am–4pm</span>
+            <div style="margin-top:20px;display:flex;flex-direction:column;gap:6px;">
+              <a href="tel:+16041234567" style="color:var(--slate);font-size:0.875rem;">📞 (604) 123-4567</a>
+              <span style="color:var(--slate);font-size:0.875rem;">📍 Surrey, BC</span>
+              <span style="color:var(--slate);font-size:0.875rem;">⏰ Mon–Fri 8am–7pm · Sat 9am–4pm</span>
             </div>
           </div>
-
         </div>
       </div>
-
       <div class="footer-bottom">
         <span class="footer-bottom-logo">Apex<span class="dot">.</span>Dental</span>
         <p class="footer-copy">© 2026 Apex Dental · Surrey, BC · All rights reserved</p>
@@ -372,28 +250,19 @@
     </div>
   </footer>
 
-  <!-- ============================================================
-       JAVASCRIPT
-       Inline here to keep the project self-contained.
-       Move to script.js and add <script src="script.js"></script>
-       before </body> if you prefer a three-file setup.
-  ============================================================ -->
   <script>
-    /* ---- NAV: add .scrolled class when page scrolls ---- */
     const nav = document.getElementById('main-nav');
     const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 20);
     window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll(); // run once on load
+    onScroll();
 
-    /* ---- NAV: mobile hamburger toggle ---- */
-    const hamburger  = document.getElementById('hamburger');
+    const hamburger = document.getElementById('hamburger');
     const mobileMenu = document.getElementById('mobile-menu');
     hamburger.addEventListener('click', () => {
       const open = mobileMenu.classList.toggle('open');
       hamburger.classList.toggle('open', open);
       hamburger.setAttribute('aria-expanded', open);
     });
-    // Close menu when a link is tapped
     mobileMenu.querySelectorAll('a').forEach(a => {
       a.addEventListener('click', () => {
         mobileMenu.classList.remove('open');
@@ -402,7 +271,6 @@
       });
     });
 
-    /* ---- BEFORE & AFTER SLIDER ---- */
     (function () {
       const slider = document.getElementById('ba-slider');
       const handle = document.getElementById('ba-handle');
@@ -413,45 +281,27 @@
         const rect = slider.getBoundingClientRect();
         let pct = (clientX - rect.left) / rect.width;
         pct = Math.max(0.04, Math.min(0.96, pct));
-        const pctStr = (pct * 100).toFixed(1);
-        handle.style.left = pctStr + '%';
-        after.style.clipPath = `inset(0 0 0 ${pctStr}%)`;
+        const pctPx = (pct * 100).toFixed(1);
+        handle.style.left = pctPx + '%';
+        after.style.clipPath = 'inset(0 0 0 ' + pctPx + '%)';
         handle.setAttribute('aria-valuenow', Math.round(pct * 100));
       }
 
-      // Mouse drag
       handle.addEventListener('mousedown', e => { dragging = true; e.preventDefault(); });
       window.addEventListener('mousemove', e => { if (dragging) setPosition(e.clientX); });
-      window.addEventListener('mouseup',   () => { dragging = false; });
-
-      // Touch drag
-      handle.addEventListener('touchstart', () => { dragging = true; }, { passive: true });
-      window.addEventListener('touchmove',  e => { if (dragging) setPosition(e.touches[0].clientX); }, { passive: true });
-      window.addEventListener('touchend',   () => { dragging = false; });
-
-      // Keyboard (arrow keys move handle 5% per press)
+      window.addEventListener('mouseup', () => { dragging = false; });
+      handle.addEventListener('touchstart', e => { dragging = true; }, { passive: true });
+      window.addEventListener('touchmove', e => { if (dragging) setPosition(e.touches[0].clientX); }, { passive: true });
+      window.addEventListener('touchend', () => { dragging = false; });
       handle.setAttribute('tabindex', '0');
       handle.addEventListener('keydown', e => {
         const cur = parseFloat(handle.style.left) || 50;
-        const sliderRect = slider.getBoundingClientRect();
-        if (e.key === 'ArrowLeft')  { setPosition(sliderRect.left + (cur - 5) / 100 * slider.offsetWidth); e.preventDefault(); }
-        if (e.key === 'ArrowRight') { setPosition(sliderRect.left + (cur + 5) / 100 * slider.offsetWidth); e.preventDefault(); }
+        if (e.key === 'ArrowLeft')  { setPosition(slider.getBoundingClientRect().left + (cur - 5) / 100 * slider.offsetWidth); e.preventDefault(); }
+        if (e.key === 'ArrowRight') { setPosition(slider.getBoundingClientRect().left + (cur + 5) / 100 * slider.offsetWidth); e.preventDefault(); }
       });
-
-      // Click anywhere on slider to jump
       slider.addEventListener('click', e => { if (!dragging) setPosition(e.clientX); });
     })();
   </script>
 
-</body>
-</html>  <script>
-    // Show page on load, with 800ms fallback in case load never fires
-    window.addEventListener('load', function() {
-      document.body.classList.add('loaded');
-    });
-    setTimeout(function() {
-      document.body.classList.add('loaded');
-    }, 800);
-  </script>
 </body>
 </html>
