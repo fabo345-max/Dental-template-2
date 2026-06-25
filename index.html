@@ -52,7 +52,7 @@
     <div class="hero-image-panel">
       <img
         class="hero-img"
-        src="imagesclinic-photo.jpg"
+        src="imagesclinic-photo.jpg" loading="lazy"
         alt="Patient with a bright, confident smile in a modern dental clinic"
         loading="eager"
       />
@@ -443,5 +443,15 @@
     })();
   </script>
 
+</body>
+</html>  <script>
+    // Show page on load, with 800ms fallback in case load never fires
+    window.addEventListener('load', function() {
+      document.body.classList.add('loaded');
+    });
+    setTimeout(function() {
+      document.body.classList.add('loaded');
+    }, 800);
+  </script>
 </body>
 </html>
